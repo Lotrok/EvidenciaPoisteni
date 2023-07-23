@@ -14,7 +14,7 @@ public class Evidencia {
     }
 
 
-  public void vypisZoznam() {
+    public void vypisZoznam() {
         databaza.vypisOsoby();
     }
 
@@ -53,7 +53,8 @@ public class Evidencia {
             }
         }
 
-        public void vypisUvod() {
+    public void vypisUvod() {
+        
         System.out.println("_________________________");
         System.out.println("Evidencia poistených");
         System.out.println("_________________________");
@@ -61,8 +62,7 @@ public class Evidencia {
         }
 
 
-
-    }
+}
 
 
 
